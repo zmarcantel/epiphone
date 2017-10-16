@@ -1,0 +1,22 @@
+[package]
+name = "epiphone"
+version = "0.1.0"
+authors = ["Zach Marcantel <zmarcantel@gmail.com>"]
+
+[dev-dependencies]
+time = "*"
+chrono = { version = "*", features = ["serde", "rustc-serialize"] }
+fern = "*"
+rand = "*"
+
+[dependencies]
+log = "*"
+bytes = "*"
+serde = "*"
+serde_derive = "*"
+bincode = "*"
+futures = "*"
+tokio-io = "*"
+tokio-core = "*"
+tokio-proto = "*"
+tokio-service = "*"
